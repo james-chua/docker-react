@@ -9,13 +9,13 @@ test("renders learn react link", () => {
 });
 
 it("renders without crashing", () => {
-  const div = documentt.craeteElement("div");
+  const div = document.createElement("div");
   render(<App />, div);
   ReactDom.unmountComponentAtNode(div);
 });
 
 it("renders without crashing", () => {
-  const div = documentt.craeteElement("div");
+  const div = document.createElement("div");
   render(<App />, div);
   ReactDom.unmountComponentAtNode(div);
 });
